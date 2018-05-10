@@ -19,8 +19,8 @@ namespace Five.QuartzNetJob.DataService.DataHelper
             SqlSugarClient db = new SqlSugarClient(
                 new ConnectionConfig()
                 {
-                    ConnectionString = AppSettingHelper.MysqlConnection,
-                    DbType = DbType.MySql,
+                    ConnectionString = AppSettingHelper.SQLiteConnection,
+                    DbType = DbType.Sqlite,
                     IsAutoCloseConnection = true,
                     InitKeyType = InitKeyType.Attribute
                 });

@@ -11,6 +11,9 @@ namespace Five.QuartzNetJob.Utils.Tool
         /// 数据库连接字符串
         /// </summary>
         static public string MysqlConnection => ConfigurationManager.AppSettings["DefaultConnection"];
+
+        static public string SQLiteConnection => ConfigurationManager.AppSettings["DefaultConnection1"];
+
         /// <summary>
         /// ip地址
         /// </summary>
