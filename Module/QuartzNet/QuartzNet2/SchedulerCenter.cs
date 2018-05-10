@@ -41,7 +41,7 @@ namespace QuartzNet2.Core
                 else
                 {
                     ISchedulerFactory schedf = new StdSchedulerFactory();
-                    _scheduler = schedf.GetScheduler();
+                    _scheduler = schedf.GetScheduler().Result;
                     return _scheduler;
                 }
             }

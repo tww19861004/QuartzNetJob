@@ -18,7 +18,6 @@ namespace Five.QuartzNetJob.DataService.DataHelper
             {
                 Console.Out.WriteLineAsync(string.Format("插入日志出错：{0}", ex));
             }
-
         }
     }
 }
