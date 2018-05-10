@@ -31,11 +31,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuartzNet3.Core", "Module\Q
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzNet2.Core", "Module\QuartzNet\QuartzNet2\QuartzNet2.Core.csproj", "{F4656C78-A557-4B50-AC43-A31886854CFC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{2E7801D2-2540-40A5-A886-E98B524069C6}"
-	ProjectSection(SolutionItems) = preProject
-		sqlite_ExecuteJob.sql = sqlite_ExecuteJob.sql
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
